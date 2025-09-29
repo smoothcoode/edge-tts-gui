@@ -60,6 +60,7 @@ This tool allows you to **convert text into natural-sounding speech** and save i
 
 
 ## 🗣️ Available Voices
+To list all available voices, run:
 
     ```bash
     python -m  edge_tts --list-voices
