@@ -3,6 +3,9 @@
 A **Python-based Text-to-Speech (TTS)** application that combines the power of Microsoft Edge's **neural voices** with an intuitive **graphical user interface (GUI)**.  
 This tool allows you to **convert text into natural-sounding speech** and save it as **MP3 audio files**.
 
+![ python tts](https://github.com/smoothcoode/Image/blob/main/tts.png?raw=true)
+
+
 ---
 
 ## ✨ Features
@@ -49,13 +52,12 @@ This tool allows you to **convert text into natural-sounding speech** and save i
 
 3. Run the application:
 
-```bash
-    pip install edge-tts 
+    ```bash
     python main.py
 
 
 🗣️ Available Voices
     find all available voices using this command:
 
-```bash
+    ```bash
     python -m  edge_tts --list-voices
