@@ -26,6 +26,9 @@ This tool allows you to **convert text into natural-sounding speech** and save i
 - 🖥️ **User-Friendly Interface**  
   Clean and intuitive GUI built with **tkinter**.
 
+![ python tts](https://github.com/smoothcoode/Image/blob/main/ttsgui.png?raw=true)
+
+
 ---
 
 ## 🛠️ Requirements
@@ -56,8 +59,7 @@ This tool allows you to **convert text into natural-sounding speech** and save i
     python main.py
 
 
-🗣️ Available Voices
-    find all available voices using this command:
+## 🗣️ Available Voices
 
     ```bash
     python -m  edge_tts --list-voices
