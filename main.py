@@ -6,7 +6,7 @@ from tkinter import ttk, messagebox, filedialog
 # Define available voices
 VOICES = [
     'en-US-AndrewNeural', 'es-US-AlonsoNeural', 'en-GB-RyanNeural',
-    'en-AU-WilliamNeural', 'en-CA-ClaraNeural', 'en-CA-LiamNeural',] # get the full list with this command: python -m  edge_tts --list-voices
+    'en-AU-WilliamNeural', 'en-CA-ClaraNeural', 'en-CA-LiamNeural',] # get-full-list: python -m  edge_tts --list-voices
 
 async def generate_audio(text, voice, rate, output_file):
     communicate = edge_tts.Communicate(text, voice, rate=rate)

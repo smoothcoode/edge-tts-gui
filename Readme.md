@@ -1,64 +1,61 @@
-Text-to-Speech Application
-A Python-based Text-to-Speech (TTS) application that combines the power of Microsoft Edge's neural voices with an intuitive graphical user interface. This tool allows you to convert text into natural-sounding speech and save it as MP3 audio files.
+# 🎙️ Text-to-Speech Application
 
-Requirements
-Python 3.7+
-Required packages:
-edge-tts
-tkinter (usually included with Python)
+A **Python-based Text-to-Speech (TTS)** application that combines the power of Microsoft Edge's **neural voices** with an intuitive **graphical user interface (GUI)**.  
+This tool allows you to **convert text into natural-sounding speech** and save it as **MP3 audio files**.
 
+---
 
-Features
-Multiple Voice Options: Choose from various neural voices including US English, British English, Australian English, Canadian English, and US Spanish
+## ✨ Features
 
-Customizable Speech Rate: Adjust speaking speed from -50% (slower) to +50% (faster) using an intuitive slider
+- 🎤 **Multiple Voice Options**  
+  Choose from various neural voices (US English, British English, Australian English, Canadian English, US Spanish, and more).
 
-Text Input Flexibility:
+- ⚡ **Customizable Speech Rate**  
+  Adjust speaking speed from **-50% (slower)** to **+50% (faster)** using a slider.
 
-Direct text input via text box
+- 📝 **Flexible Text Input**  
+  - Direct text input via the built-in text box  
+  - Upload `.txt` files for longer content  
 
-Upload text files (.txt) for longer content
+- 💾 **File Export**  
+  Save generated speech as **MP3 files** to your preferred location.
 
-File Export: Save generated audio as MP3 files to your preferred location
+- 🖥️ **User-Friendly Interface**  
+  Clean and intuitive GUI built with **tkinter**.
 
-User-Friendly Interface: Clean and intuitive GUI built with tkinter
+---
 
+## 🛠️ Requirements
 
+- **Python 3.7+**
 
-Installation
-Install the required package:
+### Required Packages:
+- [`edge-tts`](https://pypi.org/project/edge-tts/)  
+- `tkinter` (usually included with Python installations)
 
-bash
-pip install edge-tts
-Download the Python script and run it:
+---
 
-bash
-python main.py
-Usage
-Select Voice: Choose from the available neural voices in the dropdown menu
+## 📦 Installation
 
-Adjust Speed: Use the slider to set the speaking rate (-50% to +50%)
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/smoothcoode/edge-tts-gui
+   cd edge-tts-gui
+2. Install dependencies:
 
-Input Text:
-
-Type directly into the text box, OR
-
-Click "Upload Text File" to load text from a .txt file
-
-Generate Audio: Click "Generate Audio" and choose where to save your MP3 file
-
-Enjoy: Your text-to-speech audio will be saved as an MP3 file
-
-Available Voices
-The application includes several high-quality neural voices:
+    ```bash
+    pip install edge-tts
 
 
+3. Run the application:
 
-Technical Details
-Backend: Uses edge-tts library, which leverages Microsoft Edge's TTS service
+```bash
+    pip install edge-tts 
+    python main.py
 
-GUI: Built with Python's built-in tkinter library
 
-Audio Format: Outputs high-quality MP3 files
+🗣️ Available Voices
+    find all available voices using this command:
 
-Async Operations: Uses asyncio for efficient TTS generation
+```bash
+    python -m  edge_tts --list-voices
