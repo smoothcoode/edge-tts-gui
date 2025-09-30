@@ -1,1 +1,3 @@
 output.mp3
+*.mp3
+/output.mp3
